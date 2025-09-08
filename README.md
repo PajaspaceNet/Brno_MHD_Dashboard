@@ -97,11 +97,12 @@ Brno_MHD_Dasboard
 * Projekt je připravený k nasazení na VPS nebo lokálně
 * Může být snadno rozšířen o časové filtry, další linky, interaktivní mapy
 
+### GTFS data
 
-```
+Projekt vyžaduje GTFS data MHD Brno.  
+Stáhněte je z oficiálního zdroje a vložte do složky `gtfs/`:
 
----
 
-?
-``
+
+
 
