@@ -37,7 +37,7 @@ Cílem je ukázat vytíženost linek a zastávek a připravit praktický dashboa
 
 - Python 3.x  
 - Knihovny: pandas, flask, folium, matplotlib  
-- GTFS data MHD Brno (stahovatelná nebo přiložený vzorek)  
+- GTFS data (nutno stahnout)  
 
 ---
 
