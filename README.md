@@ -100,7 +100,7 @@ Brno_MHD_Dasboard
 ### GTFS data
 
 Projekt vyžaduje GTFS data MHD Brno.  
-Stáhněte je z oficiálního zdroje a vložte do složky `gtfs/`:
+Stáhněte je z oficiálního zdroje  vytvorte si slozku   - 'gtfs'  podle struktury vložte do složky .
 
 
 
