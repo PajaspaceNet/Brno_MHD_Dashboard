@@ -97,6 +97,24 @@ Brno_MHD_Dasboard
 * Projekt je připravený k nasazení na VPS nebo lokálně
 * Může být snadno rozšířen o časové filtry, další linky, interaktivní mapy
 
+## pokud to jede na serveru jako v tomoto pripade tak doporucuju dat jako servicu <br>
+
+```
+[Unit]
+Description=Flask server for MHD Brno map
+After=network.target
+
+[Service]
+User=borecnejvetsi
+WorkingDirectory=/home/user/mhd_brno_flask
+ExecStart=/home/user/mhd_brno_flask/venv/bin/python /home/user/mhd_brno_f>
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+
 ### GTFS data
 
 Projekt vyžaduje GTFS data MHD Brno.  
