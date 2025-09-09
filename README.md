@@ -114,6 +114,13 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
+* enablovani status atd
+
+```
+sudo systemctl stop flask.service      # zastaví Flask
+sudo systemctl restart flask.service   # restartuje Flask
+sudo systemctl status flask.service    # zkontroluje stav služby
+```
 
 ### GTFS data
 
