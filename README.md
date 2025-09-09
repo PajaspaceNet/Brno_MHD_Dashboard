@@ -97,7 +97,13 @@ Brno_MHD_Dasboard
 * Projekt je připravený k nasazení na VPS nebo lokálně
 * Může být snadno rozšířen o časové filtry, další linky, interaktivní mapy
 
-## pokud to jede na serveru jako v tomoto pripade tak doporucuju dat jako servicu <br>
+### pokud to jede na serveru jako v tomoto pripade tak doporucuju dat jako servicu <br>
+
+zde:
+```
+/etc/systemd/system/flask.service
+```
+a nasledne:
 
 ```
 [Unit]
@@ -105,7 +111,7 @@ Description=Flask server for MHD Brno map
 After=network.target
 
 [Service]
-User=borecnejvetsi
+User=user
 WorkingDirectory=/home/user/mhd_brno_flask
 ExecStart=/home/user/mhd_brno_flask/venv/bin/python /home/user/mhd_brno_f>
 Restart=always
