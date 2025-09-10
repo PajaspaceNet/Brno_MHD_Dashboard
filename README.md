@@ -139,7 +139,7 @@ Stáhněte je z oficiálního zdroje  vytvorte si slozku   - 'gtfs'  podle struk
 - Statistiky: Funkce pro počty spojů a top zastávky .
 
 - Data GTFS NEJSOU součástí repozitáře.
-- Některé funkce, například automatické vyhledávání odjezdů podle stop_id a autocomplete pro uživatele, jsou realne ve vývoji/testovaci rezimu
+- Některé funkce, například timetable,automatické vyhledávání odjezdů podle stop_id a autocomplete pro uživatele, jsou realne ve vývoji/testovaci rezimu
 
 - Jízdní řády: /timetable umožňuje zobrazit odjezdy vybraných linek.
 
