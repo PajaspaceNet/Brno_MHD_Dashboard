@@ -135,5 +135,15 @@ Stáhněte je z oficiálního zdroje  vytvorte si slozku   - 'gtfs'  podle struk
 
 
 
+- Mapa: Zobrazuje zastávky a linky s velikostí markerů podle počtu spojů.
+
+
+- Data GTFS nejsou součástí repozitáře.
+- Některé funkce, například automatické vyhledávání odjezdů podle stop_id a autocomplete pro uživatele, jsou realne ve vývoji/testovaci rezimu
+
+- Jízdní řády: /timetable umožňuje zobrazit odjezdy vybraných linek.
+
+- Statistiky: Funkce pro počty spojů a top zastávky jsou ve vývoji.
+
 
 
